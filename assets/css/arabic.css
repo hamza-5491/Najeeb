@@ -1,0 +1,93 @@
+
+body {
+    text-align: right;
+    direction: rtl;
+}
+
+header .navbar-brand img {
+    margin-left: 60px;
+    margin-right: 0;
+}
+header nav ul li a {
+    font-family: Tajawal-Regular;
+}
+header .nav-item.active a {
+    font-family: Tajawal-Bold;
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 19px;   
+}
+
+
+.hero .row2 {
+
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 81px;
+    border-bottom-left-radius: 209.5px;
+}
+
+.hero .class {
+    border-radius: 8px 0 0 8px;
+}
+
+.hero .vector {
+    position: absolute;
+    bottom: 0px;
+    left: 0px
+}
+
+.hero .subject {
+    border-radius: 0 8px 8px 0;
+}
+
+.card-section .private {
+    left: 36px;
+}
+.features .media-body {
+line-height: 19px;
+}
+footer h5 {
+    border-radius: 20px 0 0 20px;
+}
+
+footer h5.mail {
+    border-radius: 0 20px 20px 0;
+}
+
+footer .nav-link {
+    padding-right: 0px;
+}
+footer .nav-link img{
+    margin-left: 8px;
+}
+
+.follow ul {
+    align-items: flex-start;
+}
+
+
+@media (max-width: 576px) {
+    header .navbar-brand img {
+    margin-left: 0px;
+    margin-right: 0;
+}
+
+.hero .row1 {
+    min-height: 550px;
+    }
+
+    .follow {
+    padding-top: 0px;
+    text-align: left;
+}
+
+.follow ul {
+    align-items: end;
+}
+
+header .btn {
+    font-size: 11px;
+}
+
+ }

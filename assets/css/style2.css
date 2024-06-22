@@ -1,0 +1,166 @@
+.teacher-search .card {
+	border: 1px solid #E8E8E8;
+	border-radius: 12px;
+}
+
+.teacher-search .main-heading {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: left;
+}
+
+.teacher-search .filter .btn-light {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #7F8182;
+	min-width: 30px;
+	margin: 7px;
+}
+
+.teacher-search .filter p,
+.teacher-search .filter label {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #969696;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	padding-left: 10px;
+}
+
+
+.teacher-search .filter select {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	padding: 0px 10px;
+	border: 1px solid #E4E7EC;
+	border-radius: 8px;
+	margin: 0px 10px;
+}
+
+.teacher-search .filter .advanced {
+	border: none;
+	background: none;
+
+}
+
+/* teacher */
+.teacher-search .teacher .card {
+	padding: 20px 15px;
+
+}
+
+.teacher-search .teacher .t-name {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #003B71;
+	margin-bottom: 0px;
+	margin-top: 13px;
+}
+
+.teacher-search .teacher p.rating {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #777A7E;
+}
+
+.teacher-search .teacher i.fa {
+	height: 18px;
+	width: 18px;
+	left: 3px;
+	top: 3px;
+	border-radius: 0px;
+}
+
+.teacher-search .teacher i.text-light {
+	color: #D9D9D9 !important;
+}
+
+.teacher-search .teacher .online {
+	color: #6cd300;
+	border: 1px solid #6cd300;
+	border-radius: 30px;
+	background: none;
+	padding: 5px 10px;
+}
+
+.teacher-search .teacher .online h6 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.teacher-search .teacher .desc p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 23px;
+	color: #374957;
+}
+
+.teacher-search .teacher .online-p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #363853;
+	font-family: Poppins-Regular;
+}
+
+.teacher-search .teacher .badge-light {
+	color: #00898a;
+	background-color: #e0f4f2;
+	padding: 6px 16px;
+	min-height: 26px;
+	font-weight: 500;
+	font-size: 12px;
+	border-radius: 100px;
+	font-family: "Poppins-Regular";
+	margin-top: 5px;
+}
+
+.teacher-search .teacher .l-icon {
+	position: relative;
+	left: -36px;
+}
+
+.teacher-search .teacher .r-icon {
+	float: right;
+	margin-top: 11px;
+}
+
+.teacher-search .teacher .btn-primary {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.teacher-search .teacher p.price {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 20px;
+	color: #00B7BE;
+	margin-bottom: 0px;
+	margin-left: 17px;
+}
+
+.teacher-search .teacher p.price span {
+	font-size: 14px;
+	color: rgba(54, 56, 83, 0.76);
+	margin-left: 7px;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+	.teacher-search .teacher .detail {
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 576px) {}
